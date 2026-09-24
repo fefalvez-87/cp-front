@@ -8,23 +8,23 @@
 
  - Explicação da estrutura
 
-- index.html 
+- index.html : 
   entrada principal do site, o inicio de tudo e apresentação
 
-- scr/css
-    -estilização do site
+- scr/css : 
+     estilização do site
 
 - scr/pages
-- historia.html
-  -Pagina contando um pouco da historia da vinha agnello
+- historia.html: 
+  Pagina contando um pouco da historia da vinha agnello
 
-- produtos
+- produtos :
     tabela de produtos da vinharia
 
-- galeria
--galeria de fotos da vinharia
-- contato
--pagina para enviar uma mensagem e entrar em contato com a empresa
+- galeria:
+ galeria de fotos da vinharia
+- contato: 
+pagina para enviar uma mensagem e entrar em contato com a empresa
 
 
 
