@@ -1,4 +1,4 @@
-
+@import url(efeitos.css);
 * {
     margin: 0;
     padding: 0;
@@ -126,3 +126,5 @@ th {
     background-color: #4a0e17;
     color: white;  
 }           
+
+@import url(efeitos.css);

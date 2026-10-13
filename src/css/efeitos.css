@@ -1,0 +1,13 @@
+
+@keyframes entrada-suave {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+section {
+    animation: entrada-suave 1s ease-out;
+}
+
+
+
+
