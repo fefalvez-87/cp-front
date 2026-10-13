@@ -9,5 +9,13 @@ section {
 }
 
 
+h2::before {
+    content: "🍷 ";
+}
 
+
+::selection {
+    background-color: #4a0e17;
+    color: #f0e6d2;
+}
 
