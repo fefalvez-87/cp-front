@@ -19,3 +19,15 @@ h2::before {
     color: #f0e6d2;
 }
 
+nav a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #d4af37;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f1a7a5;
+}
