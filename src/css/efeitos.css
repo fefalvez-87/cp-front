@@ -33,3 +33,25 @@ tbody tr:nth-child(even) {
     background-color: #f1a7a5;
 }
 
+input,
+textarea {
+    border: 1px solid #cccccc;
+    border-radius: 6px;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+    border-color: #4a0e17;
+    box-shadow: 0 0 8px rgba(74, 14, 23, 0.4);
+}
+
+
+.img-container img {
+    transition: transform 0.4s ease;
+}
+
+.img-container img:hover {
+    transform: scale(1.05);
+}
