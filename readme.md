@@ -31,6 +31,21 @@
 pagina para enviar uma mensagem e entrar em contato com a empresa
 
 
+- EFEITOS VISUAIS:
+- Pseudo-classes
+:hover: quando o mouse passa em cima, os links do menu mudam de cor, as imagens aumentam e o botão "Enviar" sobe um pouquinho.
+:focus: ao clicar num campo do formulário de contato, ele ganha uma borda e um brilho na cor do vinho.
+:nth-child(): usamos na tabela de produtos para pintar as linhas de forma alternada, o que deixa a leitura mais fácil.
+- Pseudo-elementos
+::before: coloca uma taça de vinho 🍷 na frente de todos os títulos h2.
+::selection: muda a cor do texto quando alguém seleciona com o mouse, combinando com o vinho do site.
+- Animação
+(@keyframes): as seções aparecem aos poucos quando a página carrega.
+- Transições
+Para nada mudar de uma vez só, usamos transition nos links do menu (cor), nas imagens (tamanho), no botão (cor e posição) e nos campos do formulário (borda e sombra).
+- Transformações
+scale(): aumenta as imagens quando o mouse passa por cima.
+translateY(): faz o botão subir um pouco no hover.
 
  - Integrantes: Rodrigo Aljonas de Lima, Felipe Alves Costa
 
