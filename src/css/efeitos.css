@@ -33,6 +33,7 @@ tbody tr:nth-child(even) {
     background-color: #f1a7a5;
 }
 
+/* Transicoes */
 input,
 textarea {
     border: 1px solid #cccccc;
@@ -54,4 +55,22 @@ textarea:focus {
 
 .img-container img:hover {
     transform: scale(1.05);
+}
+
+
+/* EFeito no botao */
+
+button {
+    background-color: #4a0e17;
+    color: #ffffff;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #6d1a27;
+    transform: translateY(-3px);
 }
